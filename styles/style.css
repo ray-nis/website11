@@ -3,6 +3,13 @@
   height: 100vh;
   background: url(../images/bg-pattern.png), -webkit-gradient(linear, right top, left top, from(#7b4397), to(#dc2430));
   background: url(../images/bg-pattern.png), linear-gradient(to left, #7b4397, #dc2430);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
 }
 
 .nav-bar {
@@ -43,6 +50,49 @@
           justify-content: space-evenly;
 }
 
+.header-text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin-top: 15vh;
+}
+
+.header-text div {
+  width: 50%;
+}
+
+.header-text div h1 {
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  font-size: 4em;
+  line-height: 1.1;
+}
+
+.header-text div button {
+  font-size: 1.7em;
+  background: transparent;
+  color: #fff;
+  font-family: "Catamaran", sans-serif;
+  letter-spacing: 1px;
+  padding: 5px 20px;
+  border-radius: 50px;
+  margin: 20px 0;
+  cursor: pointer;
+  -webkit-transition: all .4s;
+  transition: all .4s;
+}
+
+.header-text div button:hover {
+  background-color: #fdcc52;
+}
+
+.header-text img {
+  width: 30%;
+  height: auto;
+}
+
 @media screen and (max-width: 1000px) {
   .nav-bar {
     -webkit-box-orient: vertical;
@@ -55,6 +105,30 @@
   }
   .nav-bar #app-name {
     display: none;
+  }
+  .header-text {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin-top: 10vh;
+  }
+  .header-text div {
+    width: 90%;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .header-text div h1 {
+    font-size: 2em;
+  }
+  .header-text div button {
+    font-size: 1em;
+  }
+  .header-text img {
+    width: 40%;
   }
 }
 
