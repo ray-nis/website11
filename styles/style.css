@@ -89,8 +89,7 @@
 }
 
 .header-text img {
-  width: 30%;
-  height: auto;
+  height: 80vh;
 }
 
 @media screen and (max-width: 1000px) {
@@ -128,7 +127,71 @@
     font-size: 1em;
   }
   .header-text img {
-    width: 40%;
+    height: 40vh;
+  }
+}
+
+#download {
+  width: 100%;
+  height: 50vh;
+  padding: 20px 0;
+  background-color: #fdcc52;
+  font-family: "Catamaran", sans-serif;
+  color: #fff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+}
+
+.download-text {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.download-text h1 {
+  font-size: 4em;
+}
+
+.download-text p {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.download-app {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.download-app img {
+  width: 40%;
+}
+
+@media screen and (max-width: 1000px) {
+  .download-text h1 {
+    font-size: 2em;
+  }
+  .download-text p {
+    font-size: 1.5em;
+  }
+  .download-app {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 70%;
+  }
+  .download-app img {
+    width: 70%;
   }
 }
 

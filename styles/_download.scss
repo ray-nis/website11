@@ -1,0 +1,57 @@
+#download {
+    width: 100%;
+    height: 50vh;
+    padding: 20px 0;
+    background-color: #fdcc52;
+    font-family: $text-font;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.download-text {
+    width: 90%;
+    margin: 0 auto;
+
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 2em;
+        margin: 10px 0;
+    }
+}
+
+.download-app {
+    width: 50%;
+    margin: 0 auto;
+
+    img {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .download-text {
+        h1 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+    }
+
+    .download-app {
+        display: flex;
+        flex-direction: column;
+        width: 70%;
+
+        img {
+            width: 70%;
+        }
+    }
+}
