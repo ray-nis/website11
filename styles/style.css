@@ -157,11 +157,13 @@
 
 .download-text h1 {
   font-size: 4em;
+  text-shadow: 2px 3px 6px #000000;
 }
 
 .download-text p {
   font-size: 2em;
   margin: 10px 0;
+  text-shadow: 2px 3px 6px #000000;
 }
 
 .download-app {
@@ -193,6 +195,10 @@
   .download-app img {
     width: 70%;
   }
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 html, body, div, span, object, iframe,
