@@ -136,7 +136,7 @@
 #download {
   width: 100%;
   height: 50vh;
-  padding: 20px 0;
+  padding: 50px 0;
   background-color: #fdcc52;
   font-family: "Catamaran", sans-serif;
   color: #fff;
@@ -163,7 +163,7 @@
 }
 
 .download-text p {
-  font-size: 2em;
+  font-size: 1.5em;
   margin: 10px 0;
   text-shadow: 2px 3px 6px #000000;
 }
@@ -181,9 +181,6 @@
   .download-text h1 {
     font-size: 2em;
   }
-  .download-text p {
-    font-size: 1.5em;
-  }
   .download-app {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -196,6 +193,68 @@
   }
   .download-app img {
     width: 70%;
+  }
+}
+
+#features {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-align: center;
+  font-family: "Catamaran", sans-serif;
+  padding: 50px 0;
+}
+
+.features-text h1 {
+  font-size: 4em;
+}
+
+.features-text p {
+  font-size: 1.5em;
+}
+
+.features-items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.features-items div i {
+  font-size: 4em;
+  margin: 20px 0;
+  color: #7b4397;
+}
+
+.features-items div h3 {
+  font-size: 2em;
+  margin: 10px 0;
+}
+
+.features-items div p {
+  font-size: 1em;
+}
+
+@media screen and (max-width: 1000px) {
+  .features-text h1 {
+    font-size: 2em;
+  }
+  .features-items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
   }
 }
 

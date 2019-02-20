@@ -1,0 +1,55 @@
+#features {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    font-family: $text-font;
+    padding: 50px 0;
+}
+
+.features-text {
+    h1 {
+        font-size: 4em;
+    }
+
+    p {
+        font-size: 1.5em;
+    }
+}
+
+.features-items {
+    display: flex;
+    margin-top: 50px;
+
+    div {
+        i {
+            font-size: 4em;
+            margin: 20px 0;
+            color: #7b4397;
+        }
+
+        h3 {
+            font-size: 2em;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 1em;
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .features-text {
+        h1 {
+            font-size: 2em;
+        }
+    }
+
+    .features-items {
+        display: flex;
+        flex-direction: column;
+    }
+}
