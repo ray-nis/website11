@@ -306,6 +306,80 @@
   }
 }
 
+#contact {
+  padding: 100px 0;
+  background-color: #fdcc52;
+  text-align: center;
+}
+
+#contact h1 {
+  font-size: 3em;
+  font-family: "Catamaran", sans-serif;
+  color: #fff;
+  letter-spacing: 1px;
+  text-shadow: 2px 3px 6px #000000;
+}
+
+#contact h1 .fa-heart {
+  color: #ff0019;
+}
+
+#contact div {
+  width: 30%;
+  margin: 0 auto;
+  margin-top: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+#contact div i {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 40px;
+  padding: 20px;
+  font-size: 30px;
+  color: #fff;
+  margin: 0 auto;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+#contact div .fa-twitter {
+  background-color: #0b89a3;
+}
+
+#contact div .fa-twitter:hover {
+  background-color: #025b6d;
+}
+
+#contact div .fa-facebook-f {
+  background-color: #0331ba;
+}
+
+#contact div .fa-facebook-f:hover {
+  background-color: #021f75;
+}
+
+#contact div .fa-google-plus-g {
+  background-color: #e54d39;
+}
+
+#contact div .fa-google-plus-g:hover {
+  background-color: #962415;
+}
+
+@media screen and (max-width: 1000px) {
+  #contact div {
+    width: 90%;
+  }
+}
+
 html {
   scroll-behavior: smooth;
 }

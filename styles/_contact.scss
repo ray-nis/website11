@@ -1,0 +1,71 @@
+#contact {
+    padding: 100px 0;
+    background-color: #fdcc52;
+    text-align: center;
+
+    h1 {
+        font-size: 3em;
+        font-family: $text-font;
+        color: #fff;
+        letter-spacing: 1px;
+        text-shadow: 2px 3px 6px #000000;
+
+        .fa-heart {
+            color: #ff0019;
+        }
+    }
+
+    div {
+        width: 30%;
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-evenly;
+
+        i {
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            text-align: center;
+            line-height: 40px;
+            padding: 20px;
+            font-size: 30px;
+            color: #fff;
+            margin: 0 auto;
+            transition: all 0.4s;
+        }
+
+        .fa-twitter {
+            background-color: #0b89a3;
+
+            &:hover {
+                background-color: #025b6d;
+            }
+        }
+
+        .fa-facebook-f {
+            background-color: #0331ba;
+            
+            &:hover {
+                background-color: #021f75;
+            }
+        }
+
+        .fa-google-plus-g {
+            background-color: #e54d39;
+
+            &:hover {
+                background-color: #962415;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    #contact {
+        
+        div {
+            width: 90%;
+        }
+    }
+}
