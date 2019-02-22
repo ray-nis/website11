@@ -396,6 +396,8 @@
   text-decoration: none;
   color: #909096;
   padding: 5px;
+  -webkit-transition: all .4s;
+  transition: all .4s;
 }
 
 .copyright a:hover {
